@@ -12,7 +12,7 @@
 <body>
  <!-- ---------- Navbar Section Start----------- -->
 
- <nav class="navbar navbar-expand-lg nav-bg p-1 p-lg-3  fixed-top">
+ <nav class="navbar navbar-expand-lg nav-bg p-1 p-lg-3  sticky-top">
     <div class="container-fluid ">
       <div class=" d-flex justify-content-center align-items-center">
         <div class="logo">
@@ -21,16 +21,16 @@
         <h3 class="txt  display-5 fw-bolder">Free Palestine</h3>
       </div>
       <button class="navbar-toggler bg-success-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon mb-2"></span>
+        <span class="navbar-toggler-icon mb-1"></span>
       </button>
   
       <div class="collapse navbar-collapse nav-links" id="navbarSupportedContent">
         <ul class="navbar-nav  mb-2 mb-lg-0 text-center ">
           <li class="nav-item">
-            <a class="nav-link fw-bold  "  href="#">Home</a>
+            <a class="nav-link fw-bold  "  href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bold  " href="#">About Us</a>
+            <a class="nav-link fw-bold  " href="#country">Country</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fw-bold  " href="#">Gallery</a>
@@ -51,7 +51,8 @@
 <!-- ---------- Navbar Section End----------- -->
 
   <!-- ----------Carousel Section Start----------- -->
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <section id="home">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     
 
     <div class="carousel-indicators ">
@@ -95,33 +96,37 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </div>
+  </div></section>
 
   <!-- ----------Carousel Section End----------- -->
 
   <!-- ----------Country Intro Section Start-------------- -->
- <div class="container-fluid row row-cols-1 row-cols-lg-1  g-2 ">
-  <div class="py-3 px-2 py-lg-5  px-lg-4 country-info-container">
-    <h3 class="text-center p-2 text-success fw-bolder fs-1">State of Palestine</h3>
-    <p><span class="fw-bold text-primary">Population: </span>5 millions (Approx.)</p>
-    <p><span class="fw-bold text-primary">Area: </span>6,220 square kilometers(Approx.)</p>
-    <p><span class="fw-bold text-primary">Currency: </span> The official currency is the Israeli new shekel (ILS) and the Jordanian dinar (JOD)</p>
-    <h5 class="text-secondary fw-bolder text-center fs-4">Historical Dates and Movements:</h5>
-    <p><span class="text-primary fw-medium">1. Balfour Declaration (1917):</span> The Balfour Declaration by the British government expressed support for the establishment of a "national home for the Jewish people" in Palestine.</p>
-    <p><span class="text-primary fw-medium">2. Partition Plan (1947):</span> The United Nations proposed a partition plan, leading to the establishment of the State of Israel and triggering conflict.</p>
-    <p><span class="text-primary fw-medium">3. Nakba (1948):</span>The Nakba, or "catastrophe," refers to the displacement of Palestinian Arabs during the 1948 Arab-Israeli war and the establishment of the State of Israel.</p>
-    <p><span class="text-primary fw-medium">4. Six-Day War (1967):</span>Israel occupied the West Bank, East Jerusalem, and the Gaza Strip during the Six-Day War, shaping the ongoing Israeli-Palestinian conflict.</p>
-    <p><span class="text-primary fw-medium">5. Oslo Accords (1993):</span>The Oslo Accords marked a series of agreements between Israel and the Palestine Liberation Organization (PLO), aiming to establish a framework for the future relations between the two entities.</p>
-    <p><span class="text-primary fw-medium">6. Second Intifada (2000-2005):</span>A period of intensified Israeli-Palestinian violence, triggered by various factors, including the collapse of peace talks.</p>
-  </div>
-  <div class="w-50 h-auto">
-    <img class="img-fluid" src="Images/flag/flag-4.jpg" alt="flag image">
-  </div>
- </div>
-
-
-
-
+  <section id="country">
+    <div class="container-fluid row row-cols-1 row-cols-lg-1 " >
+      <div class="py-3 px-2 py-lg-5  px-lg-4 country-info-container">
+        <h3 class="text-center p-2 text-success fw-bolder fs-1">State of Palestine</h3>
+        <p class="fw-medium"><span class="fw-bold text-primary">Population: </span>5 millions (Approx.)</p>
+        <p class="fw-medium "><span class="fw-bold text-primary">Area: </span>6,220 square kilometers(Approx.)</p>
+        <p class="fw-medium"><span class="fw-bold text-primary">Currency: </span> The official currency is the Israeli new shekel (ILS) and the Jordanian dinar (JOD)</p>
+        <h5 class="text-danger fw-bolder text-center fs-3">Historical Dates and Movements:</h5>
+        <p class="fw-medium"><span class="text-primary ">1. Balfour Declaration (1917):</span> The Balfour Declaration by the British government expressed support for the establishment of a "national home for the Jewish people" in Palestine.</p>
+        <p class="fw-medium"><span class="text-primary ">2. Partition Plan (1947):</span> The United Nations proposed a partition plan, leading to the establishment of the State of Israel and triggering conflict.</p>
+        <p class="fw-medium"><span class="text-primary ">3. Nakba (1948):</span>The Nakba, or "catastrophe," refers to the displacement of Palestinian Arabs during the 1948 Arab-Israeli war and the establishment of the State of Israel.</p>
+        <p class="fw-medium"><span class="text-primary ">4. Six-Day War (1967):</span>Israel occupied the West Bank, East Jerusalem, and the Gaza Strip during the Six-Day War, shaping the ongoing Israeli-Palestinian conflict.</p>
+        <p class="fw-medium"><span class="text-primary ">5. Oslo Accords (1993):</span>The Oslo Accords marked a series of agreements between Israel and the Palestine Liberation Organization (PLO), aiming to establish a framework for the future relations between the two entities.</p>
+        <p class="fw-medium"><span class="text-primary ">6. Second Intifada (2000-2005):</span>A period of intensified Israeli-Palestinian violence, triggered by various factors, including the collapse of peace talks.</p>
+      </div>
+      <div class="container-fluid bg-dark-subtle ">
+     <div class="row align-items-center  ">
+      <div class="col-4"><img class="img-fluid p-2"  src="Images/flag/flag-6.png"alt="country mosque ">
+      <h5 class="text-center">Masjidul Aqsa</h5></div>
+      <div class="col-4"><img class="img-fluid p-2" src="Images/flag/flag-4.jpg" alt="country map"><h5 class="text-center">Country Map</h5></div>
+      <div class="col-4"><img class="img-fluid p-2" src="Images/logo/flag-1.jpg" alt="country flag"><h5 class="text-center">National Flag</h5></div>
+     </div>
+        
+      </div>
+     </div>
+  </section>
   <!-- ----------Country Intro Section End--------------- -->
 
 

@@ -39,9 +39,7 @@ border-radius: 5px;
 .nav-links ul li a:visited{
     color: #ff0000;
 }
-.country-info{
 
-}
 
 .country-info-container{
    background-image: url("../Images/flag/flag-3.jpg");
