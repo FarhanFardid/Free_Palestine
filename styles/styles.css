@@ -2,6 +2,8 @@
 
 *{
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 .nav-bg{
     background-image: url('../Images/flag/flag-1.jpg');
