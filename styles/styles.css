@@ -1,1 +1,19 @@
 /* Customized styles  */
+
+.nav-bg{
+    background-image: url('../Images/flag/flag-1.jpg');
+    background-size: cover;
+  
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    border: 3px solid rgb(37, 194, 13);
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.nav-internal{
+    display: flex;
+    justify-content: space-between;
+}
