@@ -6,7 +6,8 @@
 .nav-bg{
     background-image: url('../Images/flag/flag-1.jpg');
     background-size: cover;
-    background-blend-mode: darken;
+    background-color: rgb(208, 135, 46);
+    background-blend-mode:multiply;
   
 }
 
@@ -43,10 +44,10 @@ border-radius: 5px;
 
 .country-info-container{
    background-image: url("../Images/flag/flag-3.jpg");
-   background-color:rgb(15, 97, 15);
+   background-color:rgb(60, 74, 5);
    background-repeat: no-repeat;
-   background-size: cover;
-   background-position:top;
+   background-size:cover;
+
    background-blend-mode:lighten;
    
 }
