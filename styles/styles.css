@@ -3,6 +3,7 @@
 .nav-bg{
     background-image: url('../Images/flag/flag-1.jpg');
     background-size: cover;
+    background-blend-mode: darken;
   
 }
 
@@ -13,7 +14,22 @@
     border-radius: 50px;
     margin-right: 10px;
 }
-.nav-internal{
-    display: flex;
-    justify-content: space-between;
+.nav-links{
+    width:fit-content;
+    justify-content: flex-end;
+    margin-left: 10px;
+}
+.nav-links ul li a {
+color: blanchedalmond;
+font-size: large;
+margin: 2px;
+}
+.nav-links ul li a:hover{
+color:bisque;
+background-color: aqua;
+border-radius: 5px;
+
+}
+.nav-links ul li a:visited{
+    color: red;
 }
