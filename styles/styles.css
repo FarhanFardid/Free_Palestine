@@ -1,5 +1,8 @@
 /* Customized styles  */
 
+*{
+    box-sizing: border-box;
+}
 .nav-bg{
     background-image: url('../Images/flag/flag-1.jpg');
     background-size: cover;
@@ -35,4 +38,17 @@ border-radius: 5px;
 }
 .nav-links ul li a:visited{
     color: #ff0000;
+}
+.country-info{
+
+}
+
+.country-info-container{
+   background-image: url("../Images/flag/flag-3.jpg");
+   background-color:rgb(15, 97, 15);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:top;
+   background-blend-mode:lighten;
+   
 }
