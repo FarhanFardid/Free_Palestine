@@ -29,19 +29,19 @@
     margin-left: 10px;
 }
 .nav-links ul li a {
-color: blanchedalmond;
+color: #ff0000;;
 font-size: large;
 margin: 2px;
 }
 .nav-links ul li a:hover{
-color:bisque;
-background-color:aquamarine;
+color:rgb(19, 148, 12);
+background-color:rgb(219, 239, 232);
 border-radius: 5px;
 
 }
-.nav-links ul li a:visited{
+/* .nav-links ul li a:visited{
     color: #ff0000;
-}
+} */
 
 
 .country-info-container{
