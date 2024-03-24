@@ -1,6 +1,6 @@
-Free Palestine Campaign
+# Free Palestine 
 
-The Free Palestine Campaign is an anti-war movement dedicated to advocating for peace and justice in Palestine. 
+The Free Palestine is an anti-war movement dedicated to advocating for peace and justice in Palestine. 
 This static web page serves as a promotional platform to raise awareness and support for the cause.
 It provides news updates, information about the ongoing conflicts, and showcases the devastating impact of war through a gallery of images.
 
