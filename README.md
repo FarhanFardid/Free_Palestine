@@ -1,14 +1,12 @@
 # Free Palestine 
 
-The Free Palestine is an anti-war movement dedicated to advocating for peace and justice in Palestine. 
-This static web page serves as a promotional platform to raise awareness and support for the cause.
-It provides news updates, information about the ongoing conflicts, and showcases the devastating impact of war through a gallery of images.
+## The Free Palestine is an anti-war movement dedicated to advocating for peace and justice in Palestine. This static web page serves as a promotional platform to raise awareness and support for the cause.It provides news updates, information about the ongoing conflicts, and showcases the devastating impact of war through a gallery of images.
 
-Mission:
+### Mission:
 
 Our mission is to stand in solidarity with the people of Palestine, to condemn violence and oppression, and to promote peaceful resolutions to the ongoing conflicts in the region.
 
-Objectives:
+### Objectives:
 
 i. Raise awareness about the humanitarian crisis in Palestine.
 
